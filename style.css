@@ -29,20 +29,32 @@ img {
     border-radius: 10px;
 }
 
-.esquerda {
+.titulo {
     font-size: 50px;
-    margin-bottom: 0;
+    padding-left: 25px;
     font-family: Inknut Antiqua, serif;
 }
 
-.texto {
+.texto1 {
+    align-items: center;
     text-align: center;
     margin: 10%;
     padding: 10%;
+    background-color: rgb(43, 43, 43);
+    border-radius: 25px;
+}
+
+.texto2 {
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(43, 43, 43);
+    border-radius: 25px;
 }
 
 .rodape {
     text-align: center;
     padding: 30px;
-    background-color: rgb(43, 43, 43);;
+    background-color: rgb(43, 43, 43);
 }
