@@ -5,6 +5,10 @@ body {
     font-family: Agdasima;
     color: rgb(0, 0, 0);
     font-size: 20px;
+    background-image: url(img/campo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header {
     transition: all 0.8s ease;
@@ -30,9 +34,24 @@ img {
 }
 
 .titulo {
-    font-size: 50px;
+    font-size: 70px;
     padding-left: 25px;
-    font-family: Inknut Antiqua, serif;
+    font-family: "Agdasima", serif;
+
+}
+
+button {
+    border: none;
+    outline: none;
+    margin: 0px 5px;
+}
+
+.tamanhofonte {
+    font-size: large;
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-left: 3px;
 }
 
 .texto1 {
