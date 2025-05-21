@@ -10,16 +10,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 header {
     transition: all 0.8s ease;
     background-color: rgb(255, 255, 255);
     display: flex; 
     align-items: center;
     padding: 20px;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .direita a:hover {
@@ -82,6 +79,36 @@ button {
     border-color: #6d9f40;
     border-style: outset;
     border-width: 10px;
+}
+
+.texto3 {
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(172, 172, 172);;
+    border-radius: 25px;
+    border-color: #6d9f40;
+    border-style: outset;
+    border-width: 10px;
+}
+
+.texto4 {
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(172, 172, 172);;
+    border-radius: 25px;
+    border-color: #6d9f40;
+    border-style: outset;
+    border-width: 10px;
+}
+
+.imagem4 {
+    width: 700px;
+    height: 500px;
+    
 }
 
 .rodape {
