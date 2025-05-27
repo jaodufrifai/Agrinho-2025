@@ -17,6 +17,10 @@ header {
     display: flex; 
     align-items: center;
     padding: 20px;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    box-shadow: 0 5px 15px black;
 }
 
 .direita a:hover {
@@ -55,11 +59,10 @@ button {
 }
 
 .entrar {
-    align-items: center;
     text-align: center;
-    justify-self: left;
+    align-items: center;
     margin: 10%;
-    padding: 10%;
+    padding: 5%;
     font-size: xx-large;
     background-color: rgb(172, 172, 172);
     border-radius: 25px;
