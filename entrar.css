@@ -23,6 +23,22 @@ header {
     box-shadow: 0 5px 15px black;
 }
 
+input {
+    padding-right: 35px;
+}
+
+.olinho {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+    position: left;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+
 .direita a:hover {
     transform: scale(1.2);
     cursor: pointer;
@@ -72,11 +88,15 @@ button {
 }
 
 .nomeTexto {
-    border-radius: 5px;
+    border-radius: 15px;
+    border-color: #6d9f40;
+    background-color: rgb(194, 194, 194);
 }
 
 .senhaTexto {
-    border-radius: 5px;
+    border-radius: 15px;
+    border-color: #6d9f40;
+    background-color: rgb(194, 194, 194);
 }
 .rodape {
     text-align: center;
