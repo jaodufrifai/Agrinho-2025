@@ -32,11 +32,7 @@ input {
     position: absolute;
     margin-left: 10px;
     position: left;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 20px;
+    border-radius: 15px;
 }
 
 .direita a:hover {
@@ -60,9 +56,24 @@ input {
 }
 
 button {
-    border: none;
+    border-radius: 15px;
     outline: none;
     margin: 0px 5px;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.entrarBotao {
+    font-size: large;
+    border-color: #6d9f40;
+    border-radius: 10px;
+}
+
+.versenha {
+    border-color: #6d9f40;
+    background-color: rgb(194, 194, 194);;
 }
 
 .tamanhofonte {

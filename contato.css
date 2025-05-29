@@ -49,6 +49,10 @@ button {
     margin: 0px 5px;
 }
 
+button:active {
+    transform: scale(0.9);
+}
+
 .tamanhofonte {
     font-size: large;
     color: white;
