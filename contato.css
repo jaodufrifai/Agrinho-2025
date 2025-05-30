@@ -23,6 +23,15 @@ header {
     box-shadow: 0 5px 15px black;
 }
 
+.logo {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
 .direita a:hover {
     transform: scale(1.2);
     cursor: pointer;
@@ -44,9 +53,9 @@ header {
 }
 
 button {
-    border: none;
+    border-radius: 15px;
     outline: none;
-    margin: 0px 5px;
+    margin: 0px 5px; 
 }
 
 button:active {
