@@ -27,6 +27,15 @@ input {
     padding-right: 35px;
 }
 
+.logo {
+    width: 100px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
 .olinho {
     cursor: pointer;
     position: absolute;
@@ -63,14 +72,6 @@ button {
 
 button:active {
   transform: scale(0.9);
-
-}.logo {
-    width: 100px; 
-    transition: transform 0.3s ease-in-out; 
-}
-
-.logo:hover {
-    transform: scale(1.2);
 }
 
 .entrarBotao {
@@ -81,10 +82,19 @@ button:active {
 
 .versenha {
     border-color: #6d9f40;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(194, 194, 194);;
 }
 
 .tamanhofonte {
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 68, 255);
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+.entrar {
     text-align: center;
     align-items: center;
     margin: 10%;
