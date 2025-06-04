@@ -87,6 +87,16 @@ button:hover {
     padding-left: 3px;
 }
 
+.introdução {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+    border-radius: 25px;
+    border-color: #6d9f40;
+    border-style: outset;
+    border-width: 10px;
+}
+
 .texto1 {
     align-items: center;
     text-align: center;
