@@ -106,6 +106,22 @@ button:hover {
     padding-bottom: 3px;
     padding-left: 3px;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  width: 120px;
+}
+ul li {
+  padding: 8px;
+}
+ul li:hover {
+  background: #f0f0f0;
+}
+
 
 .entrar {
     text-align: center;

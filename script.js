@@ -26,3 +26,12 @@ document.getElementById("toggleSenha").addEventListener("click", function() {
     var senhaInput = document.getElementById("senha");
     senhaInput.type = senhaInput.type === "password" ? "text" : "password";
 })
+
+function toggleDropdown() {
+  var dropdown = document.getElementById("dropdown");
+  dropdown.style.display = (dropdown.style.display === "none") ? "block" : "none";
+}
+
+function contraste() {
+    document.body.classList.toggle("auto-contraste");
+}
