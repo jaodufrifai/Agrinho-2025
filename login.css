@@ -64,6 +64,14 @@ input {
     align-items: center;
 }
 
+.links {
+    transition: transform 0.3s ease-in-out;
+}
+
+.links:hover {
+    transform: scale(1.2);
+}
+
 button {
     border-radius: 15px;
     outline: none;
@@ -73,6 +81,11 @@ button {
 button:active {
   transform: scale(0.9);
 }
+
+button:hover {
+    background-color: rgb(139, 139, 139);
+}
+
 
 .entrarBotao {
     font-size: large;

@@ -44,6 +44,15 @@ header {
     padding: 30px 50px;
     margin-left: auto;
 }
+
+.links {
+    transition: transform 0.3s ease-in-out;
+}
+
+.links:hover {
+    transform: scale(1.2);
+}
+
 img {
     border-radius: 10px;
 }
@@ -63,6 +72,10 @@ button {
 
 button:active {
     transform: scale(0.9);
+}
+
+button:hover {
+    background-color: rgb(139, 139, 139);
 }
 
 .tamanhofonte {

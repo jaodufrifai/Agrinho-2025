@@ -25,4 +25,4 @@ function toggleSenha() {
 document.getElementById("toggleSenha").addEventListener("click", function() {
     var senhaInput = document.getElementById("senha");
     senhaInput.type = senhaInput.type === "password" ? "text" : "password";
-});
+})
