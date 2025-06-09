@@ -122,6 +122,23 @@ ul li:hover {
   background: #f0f0f0;
 }
 
+.alto-contraste {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.alto-contraste button {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .entrar {
+    background-color: #222 !important;
+    color: white !important;
+    border-color: yellow !important;
+}
 
 .entrar {
     text-align: center;

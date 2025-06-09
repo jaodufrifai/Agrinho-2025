@@ -32,6 +32,6 @@ function toggleDropdown() {
   dropdown.style.display = (dropdown.style.display === "none") ? "block" : "none";
 }
 
-function contraste() {
-    document.body.classList.toggle("auto-contraste");
+function alternarContraste() {
+    document.body.classList.toggle("alto-contraste");
 }
