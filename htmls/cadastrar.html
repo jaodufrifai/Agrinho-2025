@@ -1,0 +1,102 @@
+<!-- Pré-definições gerais do html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro Sucesso</title>
+  <link rel="stylesheet" href="../style/cadastrar.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700" rel="stylesheet"/>
+</head>
+
+<body>
+  <!-- Inputs para controlar acessibilidade -->
+  <input type="radio" name="font" id="fontSizeP" hidden>
+  <input type="radio" name="font" id="fontSizeM" hidden>
+  <input type="radio" name="font" id="fontSizeG" hidden>
+  <input type="radio" name="font" id="fontSizeGG" hidden>
+  <input type="checkbox" id="ativarContraste" hidden>
+  <input type="checkbox" id="ativarAcessibilidade" hidden>
+
+  <!-- Interface de acessibilidade e conteúdo -->
+  <div class="acessibilidadeWrapper">
+    <label for="ativarAcessibilidade" class="acessibilidadeFixada" aria-label="Menu de acessibilidade"><img src="../img/acessibilidade.png" style="height: 30px;"></label>
+
+    <!-- Menu de acessibilidade -->
+    <div class="menuAcessibilidade hidden">
+      <label for="ativarContraste">Alto Contraste</label>
+
+      <div class="fontSizeText">
+        <a class="fontSizeText">Tamanho da fonte:</a>
+        <label for="fontSizeP">Padrão</label>
+        <label for="fontSizeM">Médio</label>
+        <label for="fontSizeG">Grande</label>
+        <label for="fontSizeGG">Muito Grande</label>
+      </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html" ><img src="../img/logo.png" alt="Logo Agrinho"/></a>
+      </div>
+
+      <div class="site-title">Agro Sucesso: o agronegócio do Paraná e do Brasil</div>
+
+      <!-- Nav-bar -->
+      <nav class="navbar">
+        <input type="checkbox" id="ativarMenu" hidden>
+        <label for="ativarMenu" class="hamburger" aria-label="Abrir menu">☰</label>
+
+        <ul class="navLinks">
+          <li><a href="#inicio">Ínicio</a></li>
+          <li><a href="#texto">Textos</a></li>
+          <li><a href="#quiz">Quiz</a></li>|
+          <li><a href="./htmls/cadastrar.html">Cadastrar</a></li>
+          <li><a href="./htmls/entrar.html">Entrar</a></li>
+        </ul>
+      </nav>
+    </header> 
+
+    <!-- Área principal do conteúdo da página --> <div id="inicio" class="intro">
+      <div class="textoIntro">  
+        <h1>Criação de conta</h1>
+        <h2 tabindex="0">
+          Crie sua conta para interagir e ficar ligado nas novidades do mundo agro recebendo notícias direto por email!
+        </h2></div>
+        <img class="tratorImg" src="../img/trator.png">
+      </div>
+
+    <main>
+        <div class="telaCadastro">
+          <label>Digite seu E-mail:</label>
+            <input class="nomeTexto" type="text" id="nomeTexto" name="nomeTexto" placeholder="Escreva seu E-mail aqui!">
+            <label>Digite seu nome de usuário:</label>
+            <input class="nomeTexto" type="text" id="nomeTexto" name="nomeTexto" placeholder="Escreva seu nome aqui!">
+            <label>Agora sua senha:</label>
+            <input class="senhaTexto" type="password" id="senhaTexto" name="senhaTexto" placeholder="Escreva sua senha aqui!">
+            <span class="olinho" onclick="toggleSenha()"><button class="versenha">Ver senha</button></span><br>
+            <button class="entrarBotao">Cadastrar!</button>
+        </div>
+    </main>
+
+    <!-- Rodapé com links para redes socias -->
+    <footer>
+      <p>
+        Site criado por João para a comtepitão Fieg 2025.<br>
+        © 2025 Copyright João | Todos os direitos reservados
+      </p>
+
+      <div class="linksSociais">
+        <a href="https://github.com/jaodufrifai" target="_blank">
+          <img src="../img/github.png" alt="GitHub" class="iconeSocial"/>
+        </a>
+        <a href="https://www.instagram.com/joao.montanhas/" target="_blank">
+          <img src="../img/instagram.png" alt="Instagram" class="iconeSocial"/>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
