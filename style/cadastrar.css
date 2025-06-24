@@ -256,6 +256,19 @@ label {
     border-style: none;
 }
 
+.entrarBotao {
+  width: 300px;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 3px;
+  transition: ease-in-out;
+}
+
+.entrarBotao:hover {
+  transform: scale(10.2s);
+}
+
+
 .nomeTexto {
     border-radius: 15px;
     width: 40%;
