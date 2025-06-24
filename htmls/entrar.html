@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agro Sucesso</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../style/entrar.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700" rel="stylesheet"/>
 </head>
 
@@ -20,7 +20,7 @@
 
   <!-- Interface de acessibilidade e conteúdo -->
   <div class="acessibilidadeWrapper">
-    <label for="ativarAcessibilidade" class="acessibilidadeFixada" aria-label="Menu de acessibilidade"><img src="./img/acessibilidade.png" style="height: 30px;"></label>
+    <label for="ativarAcessibilidade" class="acessibilidadeFixada" aria-label="Menu de acessibilidade"><img src="../img/acessibilidade.png" style="height: 30px;"></label>
 
     <!-- Menu de acessibilidade -->
     <div class="menuAcessibilidade hidden">
@@ -38,7 +38,7 @@
     <!-- Cabeçalho -->
     <header class="header">
       <div class="logo">
-        <a href="#inicio"><img src="./img/logo.png" alt="Logo Agrinho" /></a>
+        <a href="../index.html" ><img src="../img/logo.png" alt="Logo Agrinho"/></a>
       </div>
 
       <div class="site-title">Agro Sucesso: o agronegócio do Paraná e do Brasil</div>
@@ -49,155 +49,50 @@
         <label for="ativarMenu" class="hamburger" aria-label="Abrir menu">☰</label>
 
         <ul class="navLinks">
-          <li><a href="#inicio">Ínicio</a></li>
-          <li><a href="#texto">Textos</a></li>
-          <li><a href="#quiz">Quiz</a></li>
-          <li><a href="#cadastrar"></a></li>
-          <li><a href="#logar"></a></li>
+          <li><a href="../index.html">Página Inicial</a></li>|
+          <li><a href="../htmls/cadastrar.html">Cadastrar</a></li>
+          <li><a href="../htmls/entrar.html">Entrar</a></li>
         </ul>
       </nav>
     </header> 
 
     <!-- Área principal do conteúdo da página --> <div id="inicio" class="intro">
       <div class="textoIntro">  
-        <h1>introdução</h1>
+        <h1>Login</h1>
         <h2 tabindex="0">
-          Neste site, você vai encontrar informações essenciais sobre o agronegócio no Brasil e no Paraná e o papel fundamental que ele desempenha na economia do país.
+          Faça login na sua conta!
         </h2></div>
-        <img class="tratorImg" src="./img/trator.png">
+        <img class="tratorImg" src="../img/trator.png">
       </div>
 
     <main>
-      <div id="texto" class="linha"></div>
-      <!-- Texto sobre a importância do agronegócio no Brasil -->
-      <div class="bloco">
-        <div><h1>A Importância do Agro</h1>
-        <h2 style="text-align: justify" tabindex="0">
-          Em 2024, as exportações do agronegócio brasileiro ultrapassaram a marca de US$ 153 bilhões, representando 48,9% do total das 
-          exportações do país no acumulado de janeiro a novembro. Esse desempenho expressivo reforça a força e a relevância do setor para 
-          a economia nacional, consolidando o Brasil como um dos principais atuantes no comércio agrícola global. Os principais 
-          destaques foram o complexo da soja, com US$ 52,19 bilhões exportados, seguido pelo setor de carnes (US$ 23,93 bilhões) e 
-          pelo complexo sucroalcooleiro (US$ 18,27 bilhões), que juntos responderam por mais de 60% das exportações do agro.
-          <sup><a style="text-decoration: none"
-            href="https://www.gov.br/agricultura/pt-br/assuntos/noticias/exportacoes-do-agronegocio-ultrapassam-us-153-bilhoes-no-acumulado-de-2024#:~:text=Exportações%20do%20agronegócio%20ultrapassam%20US,Ministério%20da%20Agricultura%20e%20Pecuária">
-            [1]</a></sup>
-        </h2></div>
-
-        <img src="img/soja.png" style="height: 400px; margin-right: 10px; border-radius: 15px;">
-      </div>
-      <div class="linha"></div>
-      <!-- Texto sobre inovações tecnológicas no campo -->
-      <div class="bloco">
-        <img src="img/drone.png" style="height: 400px; margin-right: 10px; border-radius: 15px;">
-        <div><h1> Novas Tecnologias e Inovações</h1>
-        <h2 style="text-align: justify" tabindex="0">
-          O Brasil vem se destacando no desenvolvimento e na adoção de tecnologias inovadoras para impulsionar os resultados do 
-          agronegócio. Um dos avanços mais notáveis está na agricultura de precisão, especialmente com o uso de drones avançados. 
-          Esses equipamentos têm revolucionado o campo ao permitir a pulverização localizada e o monitoramento detalhado das lavouras, 
-          coletando dados sobre o solo e as plantas com rapidez e precisão.
-          <sup><a style="text-decoration: none"
-            href="https://nutricaodesafras.com.br/drone-na-agricultura">
-            [2]</a></sup>
-        </h2></div>
-      </div>
-      <div class="linha"></div>
-      <!-- Texto sobre a produção de cevada no Paraná -->
-      <div class="bloco">
-        <div><h1>A Cultura da Cevada no Paraná</h1>
-        <h2 style="text-align: justify" tabindex="0">
-          O Paraná se consolida como um dos maiores produtores de cevada do mundo, sendo referência nacional tanto em área plantada quanto 
-          em produtividade. Em 2024, o estado cultivou cerca de 76,5 mil hectares, com uma colheita estimada em 360 mil toneladas, 
-          superando os números do ano anterior e demonstrando a força da cultura no cenário agrícola paranaense2. A região dos Campos 
-          Gerais, especialmente os arredores de Guarapuava e Ponta Grossa, concentra grande parte dessa produção, impulsionada por 
-          investimentos em tecnologia e infraestrutura.
-          <sup><a style="text-decoration: none"
-            href="https://www.agricultura.pr.gov.br/sites/default/arquivos_restritos/files/documento/2024-10/boletim_semanal_42_deral.pdf">
-            [1]</a></sup>
-        </h2></div>
-        <img src="img/cevada.png" style="height: 400px; margin-right: 10px; border-radius: 15px;">
-      </div>
-      <div class="linha"></div>
-      <!-- Texto sobre o transporte de grãos no Brasil -->
-      <div class="bloco">
-        <img class="imagem4" src="img/caminhão.jpg" style="height: 400px; margin-right: 10px; border-radius: 15px;">
-        <div><h1>O Transporte de Grãos</h1>
-        <h2 style="text-align: justify" tabindex="0">
-          O transporte de grãos no Brasil é um dos pilares da logística agroindustrial, e atualmente é realizado de diferentes modos: 
-          rodoviário, ferroviário, aquaviário, dutoviário e aeroviário. No entanto, o modo rodoviário ainda predomina, sendo responsável 
-          por 61,1% do escoamento da produção, de acordo com dados da CNT (Confederação Nacional do Transporte).Em seguida, o 
-          transporte ferroviário representa 20,7%, sendo uma alternativa importante para longas distâncias e grandes volumes, especialmente 
-          nas regiões Centro-Oeste e Sudeste. O modal aquaviário, que inclui hidrovias e transporte marítimo, responde por 13,6%, com 
-          destaque para o escoamento de grãos via portos do Norte e Nordeste.Já o transporte dutoviário, embora mais comum para 
-          líquidos e gases, participa com 4,2%, enquanto o modal aeroviário, utilizado em situações muito específicas e de alto valor 
-          agregado, representa apenas 0,4% da movimentação.
-          <sup><a style="text-decoration: none"
-            href="https://www.gov.br/agricultura/pt-br/assuntos/noticias/exportacoes-do-agronegocio-ultrapassam-us-153-bilhoes-no-acumulado-de-2024#:~:text=Exportações%20do%20agronegócio%20ultrapassam%20US,Ministério%20da%20Agricultura%20e%20Pecuária">
-            [1]</a></sup>
-        </h2>
-      </div>
-      </div>
-      <div class="linha"></div><br>
-      <!-- Seção interativa com quiz -->
-      <section id="quiz" class="reveal visible">
-        <h2>Quiz: Você conhece o agronegócio Brasileiro?</h2>
-        <input type="checkbox" id="ativarQuiz" hidden>
-
-        <!-- Formulário com 3 perguntas e botão de envio -->
-        <form class="quizFormulario">
-          <div class="quizQuestão">
-            <p>1. Qual foi o valor das exportações do agronegócio brasileiro em 2024?</p>
-            <label><input type="radio" name="q1"> US$ 143 bilhões</label>
-            <label><input type="radio" name="q1"> US$ 156 bilhões</label>
-            <label><input type="radio" name="q1" required> US$ 153 bilhões</label>
-          </div>
-
-          <div class="quizQuestão">
-            <p>2. Qual tecnologia é mencionada como destaque na agricultura de precisão no Brasil?</p>
-            <label><input type="radio" name="q2"> Tratores automáticos</label>
-            <label><input type="radio" name="q2" required> Drones avançados</label>
-            <label><input type="radio" name="q2"> Robôs humanoides</label>
-          </div>
-
-          <div class="quizQuestão">
-            <p>3. Qual é o principal meio de transporte de grãos no Brasil?</p>
-            <label><input type="radio" name="q3" required> Rodoviário</label>
-            <label><input type="radio" name="q3"> Ferroviário</label>
-            <label><input type="radio" name="q3"> Aquaviário</label>
-          </div>
-
-          <label for="ativarQuiz" class="botaoEnviarQuiz">Enviar</label>
-        </form>
-
-        <!-- Resultado exibido após envio -->
-        <div class="resultadoQuiz">
-          <p>Obrigado!</p>
+        <div class="telaCadastro">
+            <label>Digite seu nome de usuário ou Email:</label>
+            <input class="nomeTexto" type="text" id="nomeTexto" name="nomeTexto" placeholder="Escreva seu nome/Email aqui!">
+            <label>Agora sua senha:</label>
+            <input class="nomeTexto" type="password" id="senha" name="senha" placeholder="Escreva sua senha aqui!">
+            <button type="button" class="verSenha" onclick="togglePassword()">Ver senha</button><br>
+            <button class="entrarBotao">Entrar!</button>
         </div>
-      </section>
-      <div class="linha"></div><br>
-      <!-- Informações de contato -->
-      <section id="contato" class="reveal visible">
-        <h2>Contato</h2>
-        <p>João Costa</p>
-        <p>Email: costa.joao14@escola.pr.gov.br</p>
-      </section>
     </main>
 
     <!-- Rodapé com links para redes socias -->
     <footer>
       <p>
-        Site criado por João para o Concurso Agrinho 2025.<br>
+        Site criado por João para a comtepitão Fieg 2025.<br>
         © 2025 Copyright João | Todos os direitos reservados
       </p>
 
       <div class="linksSociais">
         <a href="https://github.com/jaodufrifai" target="_blank">
-          <img src="./img/github.png" alt="GitHub" class="iconeSocial"/>
+          <img src="../img/github.png" alt="GitHub" class="iconeSocial"/>
         </a>
         <a href="https://www.instagram.com/joao.montanhas/" target="_blank">
-          <img src="./img/instagram.png" alt="Instagram" class="iconeSocial"/>
+          <img src="../img/instagram.png" alt="Instagram" class="iconeSocial"/>
         </a>
       </div>
     </footer>
   </div>
+  <script src="../script.js"></script>
 </body>
 </html>

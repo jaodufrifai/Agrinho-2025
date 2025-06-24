@@ -243,6 +243,61 @@ label {
 
 /*  CONTEÚDO  */
 
+/* Tela de login*/
+.telaCadastro {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    padding: 1%;
+    font-size: xx-large;
+    background-color: rgb(210, 210, 210);
+    border-radius: 25px;
+    border-style: none;
+}
+
+.entrarBotao {
+  width: 300px;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 3px;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.entrarBotao:hover {
+  background-color: #bdbdbd;
+}
+
+.entrarBotao:active {
+  transform: scale(1.1);
+}
+
+.verSenha {
+  width: 60px;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 3px;
+  transition: all 0.1s ease;
+}
+
+.verSenha:active {
+  transform: scale(1.1);
+}
+
+.verSenha:hover {
+  background-color: #bdbdbd;
+}
+
+.nomeTexto {
+    border-radius: 15px;
+    width: 40%;
+    padding: 3px;
+    font-size: 1.5rem;
+    background-color: rgb(194, 194, 194);
+    border-style: none;
+}
+
 /* Espaçamento da área principal após header fixo */
 main {
   padding: 20px;
@@ -271,17 +326,6 @@ section h2 {
 }
 section p {
   margin-bottom: 10px;
-}
-
-/* Texto do Site*/
-.bloco {
-  display: flex;
-  gap: 50px;
-  margin: 50px 30px;
-}
-
-.bloco img {
-  width: 30vw;
 }
 
 /* Estilo da seção de introdução */
@@ -336,85 +380,6 @@ footer {
   width: 24px;
   height: 24px;
   vertical-align: middle;
-}
-
-/*  QUIZ  */
-
-/* Layout do formulário de quiz */
-.quizFormulario {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* Pergunta do quiz */
-.quizQuestão {
-  background-color: #dcdcdc;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  
-}
-
-.quizQuestão label {
-  background-color: #c3c3c3;
-  border-radius: 5px;
-  padding: 5px;
-  transition: 0.3s;
-}
-
-.quizQuestão label:hover {
-  background-color: #a0a0a0;
-}
-
-.quizQuestão p {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.quizQuestão label {
-  display: block;
-  margin: 8px 0;
-  cursor: pointer;
-}
-
-/* Botão de envio do quiz */
-.botaoEnviarQuiz {
-  display: inlinha-block;
-  padding: 10px 20px;
-  background-color: #2c8846;
-  color: white;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  margin-top: 20px;
-  box-shadow: 0 5px 15px black;
-}
-.botaoEnviarQuiz:hover {
-  background-color: #2e563b;
-}
-
-/* Resultado do quiz */
-.resultadoQuiz {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 18px;
-  background-color: #2c8846;
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  display: none;
-  box-shadow: 0 5px 15px black;
-}
-
-/* Toggle entre formulário e resultado */
-#ativarQuiz:checked ~ .quizFormulario {
-  display: none;
-}
-#ativarQuiz:checked ~ .resultadoQuiz {
-  display: block;
 }
 
 /*  RESPONSIVIDADE  */

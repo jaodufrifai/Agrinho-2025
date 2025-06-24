@@ -1,13 +1,8 @@
-function toggleSenha() {
-    var senhaInput = document.getElementById("senhaTexto");
+function togglePassword() {
+    const senhaInput = document.getElementById("senha");
     if (senhaInput.type === "password") {
-        senhaInput.type = "text";
+      senhaInput.type = "text";
     } else {
-        senhaInput.type = "password";
+      senhaInput.type = "password";
     }
-}
-
-document.getElementById("toggleSenha").addEventListener("click", function() {
-    var senhaInput = document.getElementById("senha");
-    senhaInput.type = senhaInput.type === "password" ? "text" : "password";
-})
+  }

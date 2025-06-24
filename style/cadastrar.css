@@ -251,7 +251,7 @@ label {
     margin: 10%;
     padding: 1%;
     font-size: xx-large;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(210, 210, 210);
     border-radius: 25px;
     border-style: none;
 }
@@ -261,25 +261,38 @@ label {
   border-radius: 15px;
   border-width: 0px;
   padding: 3px;
-  transition: ease-in-out;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
 }
 
 .entrarBotao:hover {
-  transform: scale(10.2s);
+  background-color: #bdbdbd;
 }
 
+.entrarBotao:active {
+  transform: scale(1.1);
+}
+
+.verSenha {
+  width: 60px;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 3px;
+  transition: all 0.1s ease;
+}
+
+.verSenha:active {
+  transform: scale(1.1);
+}
+
+.verSenha:hover {
+  background-color: #bdbdbd;
+}
 
 .nomeTexto {
     border-radius: 15px;
     width: 40%;
-    font-size: 1.5rem;
-    background-color: rgb(194, 194, 194);
-    border-style: none;
-}
-
-.senhaTexto {
-    border-radius: 15px;
-    width: 40%;
+    padding: 3px;
     font-size: 1.5rem;
     background-color: rgb(194, 194, 194);
     border-style: none;
